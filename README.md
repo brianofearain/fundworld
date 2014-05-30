@@ -1,10 +1,10 @@
 Fundworld
 =========
 A fund transfer using Spring and Hibernate 
-When payment is transferred to a new fund, the payment amount is deducted from /n
+When payment is transferred to a new fund, the payment amount is deducted from
 the FUND_DETAILS table’s BALANCE_AMOUNT column, and the payment details are
 saved in the PAYMENT_DETAILS table.
-The columns of FUND_DETAILS table are:
+The columns of FUND_DETAILS table are: 
 • ACCOUNTID - account identifier that uniquely identifies a customer’s fund.
 • BALANCE_AMOUNT - holds the current balance in the fund. When a customer does a payment transfer, the payment amount is deducted from this column,
 • LAST_TRANSACTION_TS - specifies the date/time when the last transaction was performed on
