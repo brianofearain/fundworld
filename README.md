@@ -1,7 +1,7 @@
 Fundworld
 =========
 A fund transfer using Spring and Hibernate 
-When payment is transferred to a new fund, the payment amount is deducted from
+When payment is transferred to a new fund, the payment amount is deducted from /n
 the FUND_DETAILS table’s BALANCE_AMOUNT column, and the payment details are
 saved in the PAYMENT_DETAILS table.
 The columns of FUND_DETAILS table are:
